@@ -1,0 +1,55 @@
+<!-- Author : Deepak Poly -->
+<!-- Description : GLA 2 => E-commerce website -->
+<!-- Cousre : SODV1201 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+    <title>Compotion</title>
+  </head>
+  <body>
+
+    <nav>
+      <div class="logo">
+        <p id="logo">COMPOTION</p>
+      </div>
+      <div class="links">
+        <div class="catogeryBtn">
+          <select name="catogery" id="catogery">
+            <option value="default">CATOGERY</option>
+            <option value="men's clothing" class="mens">MEN'S CLOTHING</option>
+            <option value="women's clothing">WOMENS'S CLOTHING</option>
+            <option value="jewelry">JEWELRY</option>
+            <option value="electronics">ELECTRONICS</option>
+          </select>
+        </div>
+        <div class="sortBtn">
+          <select name="sortByPrice" id="sortByPrice">
+            <option value="defualt">SORT BY PRICE</option>
+            <option value="ascending">ASCENDING</option>
+            <option value="descending">DESCENDING</option>
+          </select>
+        </div>
+      </div>
+    </nav>
+
+    <div class="mottoContainer" id="mottoContainer">
+      <div class="mottoText">
+        <p class="mottoTextPMod">
+          <span class="top">You get what</span><br>
+          <span class="bottom">you want</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="products" id="products">
+      <!-- All products displays here -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
